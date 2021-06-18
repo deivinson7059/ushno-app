@@ -8,7 +8,7 @@
     <meta name="template-type" content="FM Radio Station">
     <meta name="template-title" content="Ushno - FM Radio Station">
 
-    <title>Ushno - Radio</title>
+    <title><?php echo "Ushno - Radio -" . $rRuta; ?> </title>
     <link rel="icon" href="assets/img/favicon.png">
     <link rel="stylesheet" href="assets/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/vendor/slick.css">

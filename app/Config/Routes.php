@@ -35,12 +35,12 @@ $routes->get('/', 'Home::index');
 $routes->get('/index', 'Home::index');
 $routes->get('/about', 'Home::about');
 $routes->get('/show', 'Home::show');
-$routes->get('/team', 'Home::index');
-$routes->get('/video', 'Home::index');
-$routes->get('/gallery', 'Home::index');
-$routes->get('/blog-list', 'Home::index');
-$routes->get('/blog-details', 'Home::index');
-$routes->get('/contact', 'Home::index');
+$routes->get('/team', 'Home::team');
+$routes->get('/video', 'Home::video');
+$routes->get('/gallery', 'Home::gallery');
+$routes->get('/blog-list', 'Home::bloglist');
+$routes->get('/blog-details', 'Home::blogdetails');
+$routes->get('/contact', 'Home::contact');
 
 /*
 $routes->get('/contactslist', 'Ccontacts::index');
