@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class HomeController extends BaseController
 {
     public function index()
     {
@@ -118,6 +118,27 @@ class Home extends BaseController
         view('emisora/footer');
 
         return $vistas;
+
+    }
+
+    public function login()
+    {
+
+        return view('admin/pages/login');
+
+    }
+
+    public function logout()
+    {
+
+        return 'logout';
+
+    }
+
+    public function admin()
+    {
+
+        return view('admin/pages/admin');
 
     }
 }

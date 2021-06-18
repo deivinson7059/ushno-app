@@ -1,1 +1,114 @@
-.breadcrumb{-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:0px;margin-bottom:0px;background:none;border-radius:0px}.breadcrumb-item{text-transform:capitalize}.breadcrumb-item a{color:var(--white);text-transform:capitalize;text-shadow:2px 3px 8px rgba(0,0,0,0.1)}.breadcrumb-item a:hover{text-decoration:underline}.breadcrumb-item.active{color:var(--light-white);text-shadow:2px 3px 8px rgba(0,0,0,0.1)}.breadcrumb-item+.breadcrumb-item::before{color:var(--white)}.video-img{position:relative;margin-bottom:15px}.video-img img{width:100%;border-radius:10px}.video-overlay{position:absolute;bottom:0px;left:0px;width:100%;height:100%;border-radius:10px;background:var(--video-oly)}.video-overlay .icon{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%)}.video-overlay .icon i{font-size:14px}.video-overlay .icon-inline i{background:var(--video-icon)}.video-content{padding:0px 10px}.video-content h5{margin-bottom:5px}.video-content p{font-size:15px;line-height:24px}.single-banner{background:url(../../img/single-banner.jpg);background-repeat:no-repeat;background-position:center;background-size:cover;padding:155px 0px 90px}.single-content{text-align:center}.single-content h2{font-size:38px;margin-bottom:10px;color:var(--white);text-shadow:2px 3px 8px rgba(0,0,0,0.1)}@media (max-width: 991px){.single-banner{padding:80px 0px}.single-content h2{font-size:38px}}.video-part{padding:100px 0px}.video-gape{margin-bottom:30px}.video-btn{text-align:center;margin-top:20px}@media (max-width: 767px){.video-part{padding:60px 0px}}@media (min-width: 768px) and (max-width: 991px){.video-part{padding:80px 0px}}
+.breadcrumb {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: 0px;
+    background: none;
+    border-radius: 0px
+}
+.breadcrumb-item {
+    text-transform: capitalize
+}
+.breadcrumb-item a {
+    color: var(--white);
+    text-transform: capitalize;
+    text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1)
+}
+.breadcrumb-item a:hover {
+    text-decoration: underline
+}
+.breadcrumb-item.active {
+    color: var(--light-white);
+    text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1)
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    color: var(--white)
+}
+.video-img {
+    position: relative;
+    margin-bottom: 15px
+}
+.video-img img {
+    width: 100%;
+    border-radius: 10px
+}
+.video-overlay {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: var(--video-oly)
+}
+.video-overlay .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+.video-overlay .icon i {
+    font-size: 14px
+}
+.video-overlay .icon-inline i {
+    background: var(--video-icon)
+}
+.video-content {
+    padding: 0px 10px
+}
+.video-content h5 {
+    margin-bottom: 5px
+}
+.video-content p {
+    font-size: 15px;
+    line-height: 24px
+}
+.single-banner {
+    background: url(../../img/single-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 155px 0px 90px
+}
+.single-content {
+    text-align: center
+}
+.single-content h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+    color: var(--white);
+    text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1)
+}
+@media (max-width: 991px) {
+    .single-banner {
+        padding: 80px 0px
+    }
+    .single-content h2 {
+        font-size: 38px
+    }
+}
+.video-part {
+    padding: 100px 0px
+}
+.video-gape {
+    margin-bottom: 30px
+}
+.video-btn {
+    text-align: center;
+    margin-top: 20px
+}
+@media (max-width: 767px) {
+    .video-part {
+        padding: 60px 0px
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .video-part {
+        padding: 80px 0px
+    }
+}

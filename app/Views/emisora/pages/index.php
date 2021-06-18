@@ -149,7 +149,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="team-btn"><a class="btn btn-outline" href="team.html"><i
+                    <div class="team-btn"><a class="btn btn-outline" href="./team"><i
                                 class="fas fa-eye"></i><span>show more</span></a></div>
                 </div>
             </div>
@@ -216,7 +216,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="team-btn"><a class="btn btn-outline" href="video.html"><i
+                    <div class="team-btn"><a class="btn btn-outline" href="./video"><i
                                 class="fas fa-eye"></i><span>show more</span></a></div>
                 </div>
             </div>
@@ -248,7 +248,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="gallery-btn"><a class="btn btn-outline" href="gallery.html"><i
+                    <div class="gallery-btn"><a class="btn btn-outline" href="./gallery"><i
                                 class="fas fa-eye"></i><span>show more</span></a></div>
                 </div>
             </div>
@@ -299,19 +299,19 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="blog-btn"><a class="btn btn-outline" href="blog-list.html"><i
+                    <div class="blog-btn"><a class="btn btn-outline" href="./blog-list"><i
                                 class="fas fa-eye"></i><span>show more</span></a></div>
                 </div>
             </div>
         </div>
     </section>
-    <script src="assets/js/vendor/popper5.min.js"></script>
-    <script src="assets/js/vendor/bootstrap5.min.js"></script>
     <script src="assets/js/vendor/axios.min.js"></script>
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/vendor/slick.min.js"></script>
     <script src="assets/js/vendor/venobox.min.js"></script>
     <script src="assets/js/custom/venobox.js"></script>
+     <script src="assets/js/vendor/popper5.min.js"></script>
+    <script src="assets/js/vendor/bootstrap5.min.js"></script>
     <script src="assets/js/custom/player.js"></script>
     <script src="assets/js/custom/slickGetsOnTo.js"></script>
     <script src="assets/js/custom/main.js"></script>

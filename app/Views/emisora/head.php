@@ -9,12 +9,13 @@
     <meta name="template-title" content="Ushno - FM Radio Station">
 
     <title><?php echo "Ushno - Radio -" . $rRuta; ?> </title>
+
     <link rel="icon" href="assets/img/favicon.png">
     <link rel="stylesheet" href="assets/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/vendor/slick.css">
-    <link rel="stylesheet" href="assets/css/vendor/venobox.min.css">
     <link rel="stylesheet" href="assets/css/vendor/bootstrap5.min.css">
     <link rel="stylesheet" href="assets/css/custom/main.css">
+
 
 </head>
 

@@ -6,7 +6,7 @@
                     <div class="single-content">
                         <h2>Show Schedules</h2>
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="./home">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Show Schedules</li>
                         </ol>
                     </div>
@@ -1252,8 +1252,8 @@
             </div>
         </div>
     </section>
-    <script src="assets/js/vendor/popper5.min.js"></script>
+     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+     <script src="assets/js/vendor/popper5.min.js"></script>
     <script src="assets/js/vendor/bootstrap5.min.js"></script>
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/custom/player.js"></script>
     <script src="assets/js/custom/main.js"></script>

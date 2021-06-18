@@ -10,7 +10,7 @@
                             <div class="slide-head"><a href="#"><img src="assets/img/logo.png" alt="logo"></a><button
                                     class="cencel"><i class="fas fa-times"></i></button></div>
                             <ul class="navbar-list">
-                                <li class="navbar-item active"><a class="navbar-link" href="./index"><span><i
+                                <li class="navbar-item active"><a class="navbar-link" href="./home"><span><i
                                                 class="fas fa-headphones-alt"></i>Home</span></a></li>
                                 <li class="navbar-item"><a class="navbar-link" href="./about"><span><i
                                                 class="fas fa-headphones-alt"></i>About us</span></a></li>
