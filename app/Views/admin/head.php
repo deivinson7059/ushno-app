@@ -12,11 +12,10 @@
 
   <title>Panel Administrativo</title>
   <!-- Custom fonts for this template-->
-  <link href="assets/font/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="<?php echo base_url('assets/font/fontawesome-free/css/all.min.css') ?>" rel="stylesheet" type="text/css">
 
   <!-- Custom styles for this template-->
-  <link href="assets/css/vendor/sb-admin-2.min.css" rel="stylesheet">
+  <link href="<?php echo base_url('assets/css/vendor/sb-admin-2.min.css') ?>" rel="stylesheet">
 
 </head>
 <body id="page-top">
@@ -38,7 +37,7 @@
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
-        <a class="nav-link" href="./admin">
+        <a class="nav-link" href="<?php echo base_url('/admin/') ?>">
           <i class="fas fa-fw fa-home"></i>
           <span>Principal</span></a>
       </li>
@@ -53,34 +52,34 @@
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link" href="./admin/users" >
+        <a class="nav-link" href="<?php echo base_url('/admin/users') ?>" >
           <i class="fas fa-fw fa-user-alt"></i>
           <span>Usuarios</span>
         </a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link"  href="./admin/horario" >
+        <a class="nav-link"  href="<?php echo base_url('/admin/horario') ?>" >
           <i class="fas fa-fw fa-clock"></i>
           <span>Horarios</span>
         </a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link"  href="./admin/perfil" >
+        <a class="nav-link"  href="<?php echo base_url('/admin/perfil') ?>" >
           <i class="fas fa-fw fa-user"></i>
           <span>Perfiles</span>
         </a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link"  href="./admin/videos" >
+        <a class="nav-link"  href="<?php echo base_url('/admin/videos') ?>" >
           <i class="fas fa-fw fa-cog"></i>
           <span>Videos</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link"  href="./admin/galery" >
+        <a class="nav-link"  href="<?php echo base_url('/admin/galery') ?>" >
           <i class="fas fa-fw fa-image"></i>
           <span>Galerias</span>
         </a>
@@ -147,7 +146,7 @@
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo "Administrador"; ?></span>
 <!--                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">-->
-                <img class="img-profile rounded-circle" src="assets/img/user.png">
+                <img class="img-profile rounded-circle" src="<?php echo base_url('assets/img/user.png') ?>">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
