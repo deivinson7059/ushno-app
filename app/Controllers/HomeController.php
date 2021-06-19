@@ -138,7 +138,12 @@ class HomeController extends BaseController
     public function admin()
     {
 
-        return view('admin/pages/admin');
+        $vistas =
+        view('admin/head') .
+        view('admin/pages/admin') .
+        view('admin/footer');
+
+        return $vistas;
 
     }
 }
