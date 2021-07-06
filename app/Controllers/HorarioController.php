@@ -7,16 +7,47 @@ use CodeIgniter\Controller;
 class HorarioController extends Controller
 {
 
+    public static function getresponse($url)
+    {
+        #set HTTP header
+        $headers = array('Content-Type: application/json');
+
+        #Open connection
+        $ch = curl_init();
+
+        #Set the url, number of GET vars, GET data
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_POST, false);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+
+        #Execute request
+        $result = curl_exec($ch);
+
+        #Close connection
+        curl_close($ch);
+
+        #get the result and parse to JSON
+        $items = json_decode($result);
+
+        return $items;
+
+    }
+
     public function index()
     {
 
-        $horaList = new HorarioModel(); // se crea el objeto de la clase mcontacts
+        $items = self::getresponse('http://localhost/ushno-api/public/admin/horario');
 
-        $result['lista'] = $horaList->getHorarios();
+        $response = $items->Horarios;
+
+        $response['lista'] = json_decode(json_encode($response), true);
 
         $vistas =
         view('admin/head') .
-        view('admin/pages/horario', $result) .
+        view('admin/pages/horario', $response) .
         view('admin/footer');
 
         return $vistas;
@@ -26,14 +57,27 @@ class HorarioController extends Controller
     public function edit($id)
     {
 
-        $editardato = new HorarioModel();
+        $teams = self::getresponse('http://localhost/ushno-api/public/admin/cbteams');
 
-        $datos['combo'] = $editardato->getcbDia();
-        $datos['teams'] = $editardato->getcbTeam();
+        $resteams = $teams->teams;
 
-        $datos['lista'] = $editardato->getHorario($id);
+        $datos['teams'] = json_decode(json_encode($resteams), true);
 
-        //print_r($datos);
+        $combo = self::getresponse('http://localhost/ushno-api/public/admin/cbdias');
+
+        $rescombo = $combo->combo;
+
+        $datos['combo'] = json_decode(json_encode($rescombo), true);
+
+        $url = "http://localhost/ushno-api/public/admin/horario/" . $id;
+
+        $lista = self::getresponse($url);
+
+        $reslista = $lista->lista;
+
+        $datos['lista'] = json_decode(json_encode($reslista), true);
+
+        // print_r($datos);
 
         $vistas =
         view('admin/head') .
@@ -67,10 +111,18 @@ class HorarioController extends Controller
 
     public function create()
     {
-        $editardato = new HorarioModel();
 
-        $datos['combo'] = $editardato->getcbDia();
-        $datos['teams'] = $editardato->getcbTeam();
+        $teams = self::getresponse('http://localhost/ushno-api/public/admin/cbteams');
+
+        $resteams = $teams->teams;
+
+        $datos['teams'] = json_decode(json_encode($resteams), true);
+
+        $combo = self::getresponse('http://localhost/ushno-api/public/admin/cbdias');
+
+        $rescombo = $combo->combo;
+
+        $datos['combo'] = json_decode(json_encode($rescombo), true);
 
         $vistas =
         view('admin/head') .
