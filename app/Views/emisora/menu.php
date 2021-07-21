@@ -2,12 +2,12 @@
     <nav class="navbar-part">
         <div class="navbar-bg">
             <div class="container">
-                <div class="navbar-content"><a class="navbar-logo" href="#"><img src="assets/img/logo.png"
+                <div class="navbar-content"><a class="navbar-logo" href="#"><img src="<?php echo base_url('resources/assets/img/logo.png'); ?>"
                             alt="logo"></a><button class="navbar-toggle" type="button"><i
                             class="fas fa-bars"></i></button>
                     <div class="navbar-overlay">
                         <div class="navbar-slide">
-                            <div class="slide-head"><a href="#"><img src="assets/img/logo.png" alt="logo"></a><button
+                            <div class="slide-head"><a href="#"><img src="<?php echo base_url('resources/assets/img/logo.png'); ?>" alt="logo"></a><button
                                     class="cencel"><i class="fas fa-times"></i></button></div>
                             <ul class="navbar-list">
                                 <li class="navbar-item active"><a class="navbar-link" href="./home"><span><i

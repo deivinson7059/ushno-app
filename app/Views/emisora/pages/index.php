@@ -1,5 +1,10 @@
 
-    <link rel="stylesheet" href="assets/css/custom/index.css">
+
+    <link rel="stylesheet" href="<?php echo base_url('resources/assets/css/vendor/slick.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('resources/assets/css/vendor/venobox.min.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('resources/assets/css/vendor/bootstrap.min.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('resources/assets/css/custom/main.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('resources/assets/css/custom/index.css'); ?>">
      <div class="bottom-player">
         <div class="player"><button class="player-btn" id="play-pause-button2"><i class="fas fa-play"></i></button>
         </div>
@@ -55,9 +60,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
-                    <div class="about-img"><a href="#" class="about-1"><img src="assets/img/about-1.jpg"
-                                alt="about-1"></a><a href="#" class="about-2"><img src="assets/img/about-2.jpg"
-                                alt="about-2"></a></div>
+                    <div class="about-img"><a href="#" class="about-1"><img src="<?php echo base_url('resources/assets/img/about-1.jpg'); ?>" alt="about-1"></a><a
+                            href="#" class="about-2"><img src="<?php echo base_url('resources/assets/img/about-2.jpg'); ?>" alt="about-2"></a></div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="about-content">
@@ -74,12 +78,12 @@
             </div>
         </div>
     </section>
-    <section class="section show-part" id="sectionHorario">
+    <section class="section show-part">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Horarios</h2>
+                        <h2>show Schedule</h2>
                     </div>
                 </div>
             </div>
@@ -87,13 +91,13 @@
                 <div class="col-lg-12">
                     <div id="show-menu">
                         <ul class="nav nav-tabs">
-                            <li><a href="#sat" class="nav-link active" data-toggle="tab">Sábado</a></li>
-                            <li><a href="#sun" class="nav-link" data-toggle="tab">domingo</a></li>
-                            <li><a href="#mon" class="nav-link" data-toggle="tab">Lunes</a></li>
-                            <li><a href="#tue" class="nav-link" data-toggle="tab">Martes</a></li>
-                            <li><a href="#wed" class="nav-link" data-toggle="tab">Miércoles</a></li>
-                            <li><a href="#thu" class="nav-link" data-toggle="tab">Jueves</a></li>
-                            <li><a href="#fri" class="nav-link" data-toggle="tab">Viernes</a></li>
+                            <li><a href="#sat" class="nav-link active" data-toggle="tab">Saturday</a></li>
+                            <li><a href="#sun" class="nav-link" data-toggle="tab">sunday</a></li>
+                            <li><a href="#mon" class="nav-link" data-toggle="tab">monday</a></li>
+                            <li><a href="#tue" class="nav-link" data-toggle="tab">Tuesday</a></li>
+                            <li><a href="#wed" class="nav-link" data-toggle="tab">Wednesday</a></li>
+                            <li><a href="#thu" class="nav-link" data-toggle="tab">Thursday</a></li>
+                            <li><a href="#fri" class="nav-link" data-toggle="tab">friday</a></li>
                         </ul>
                     </div>
                 </div>
@@ -101,33 +105,1141 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="tab-pane active" id="sat">
-                        <div class="row" id="Hsat">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-1.jpg'); ?>" alt="show-1"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>08:00 - 10:00pm</p>
+                                                <h4>Tiny Time Talks</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-1.jpg'); ?>" alt="host-1"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-2.jpg'); ?>" alt="host-2"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-3.jpg'); ?>" alt="host-3"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Sumu, Monty, Rony</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-2.jpg'); ?>" alt="show-2"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-active"><img src="<?php echo base_url('resources/assets/img/sound.gif'); ?>" alt="sound"></div>
+                                            <div class="show-time">
+                                                <p>09:15 - 10:45pm</p>
+                                                <h4>Public Reaction</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-2.jpg'); ?>" alt="host-2"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Mahmud</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-3.jpg'); ?>" alt="show-3"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>03:15 - 04:55am</p>
+                                                <h4>Couple Story</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-3.jpg'); ?>" alt="host-3"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Bonny, Imran</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-4.jpg'); ?>" alt="show-4"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>05:25 - 06:30pm</p>
+                                                <h4>Transport Signal</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Ayman</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-5.jpg'); ?>" alt="show-5"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>01:45 - 02:30am</p>
+                                                <h4>Comedy Nightclub</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-5.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Farjana</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-6.jpg'); ?>" alt="show-6"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>04:45 - 05:30am</p>
+                                                <h4>Knowledge sharing</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-6.jpg'); ?>" alt="host-6"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Rasel, Priya</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-7.jpg'); ?>" alt="show-7"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>02:45 - 03:10pm</p>
+                                                <h4>Music for Emotion</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Tahmina</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-8.jpg'); ?>" alt="show-8"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>06:45 - 08:10am</p>
+                                                <h4>Education for abroad</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-8.jpg'); ?>" alt="host-8"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-5.jpg'); ?>" alt="host-5"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Niloy, Shusmita</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="tab-pane" id="sun">
-                        <div class="row" id="Hsun">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-1.jpg'); ?>" alt="show-1"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>08:00 - 10:00pm</p>
+                                                <h4>Tiny Time Talks</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-1.jpg'); ?>" alt="host-1"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-2.jpg'); ?>" alt="host-2"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-3.jpg'); ?>" alt="host-3"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Sumu, Monty, Rony</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-4.jpg'); ?>" alt="show-4"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>09:15 - 10:45pm</p>
+                                                <h4>Public Reaction</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Mahmud</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-3.jpg'); ?>" alt="show-3"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>03:15 - 04:55am</p>
+                                                <h4>Couple Story</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-3.jpg'); ?>" alt="host-3"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Bonny, Imran</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-2.jpg'); ?>" alt="show-2"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>05:25 - 06:30pm</p>
+                                                <h4>Transport Signal</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-2.jpg'); ?>" alt="host-2"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Ayman</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-5.jpg'); ?>" alt="show-5"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>01:45 - 02:30am</p>
+                                                <h4>Comedy Nightclub</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-5.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Farjana</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-6.jpg'); ?>" alt="show-6"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>04:45 - 05:30am</p>
+                                                <h4>Knowledge sharing</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-6.jpg'); ?>" alt="host-6"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Rasel, Priya</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-7.jpg'); ?>" alt="show-7"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>02:45 - 03:10pm</p>
+                                                <h4>Music for Emotion</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Tahmina</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-8.jpg'); ?>" alt="show-8"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>06:45 - 08:10am</p>
+                                                <h4>Education for abroad</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-8.jpg'); ?>" alt="host-8"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-5.jpg'); ?>" alt="host-5"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Niloy, Shusmita</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="tab-pane" id="mon">
-                        <div class="row" id="Hmon">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-3.jpg'); ?>" alt="show-3"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>08:00 - 10:00pm</p>
+                                                <h4>Tiny Time Talks</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-1.jpg'); ?>" alt="host-1"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-3.jpg'); ?>" alt="host-3"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Sumu, Monty, Rony</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-7.jpg'); ?>" alt="show-7"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>09:15 - 10:45pm</p>
+                                                <h4>Public Reaction</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-2.jpg'); ?>" alt="host-2"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-1.jpg'); ?>" alt="host-1"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Mahmud</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-3.jpg'); ?>" alt="show-3"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>03:15 - 04:55am</p>
+                                                <h4>Couple Story</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-3.jpg'); ?>" alt="host-3"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Bonny, Imran</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-7.jpg'); ?>" alt="show-7"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>05:25 - 06:30pm</p>
+                                                <h4>Transport Signal</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Ayman</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-5.jpg'); ?>" alt="show-5"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>01:45 - 02:30am</p>
+                                                <h4>Comedy Nightclub</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-5.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Farjana</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-6.jpg'); ?>" alt="show-6"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>04:45 - 05:30am</p>
+                                                <h4>Knowledge sharing</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-6.jpg'); ?>" alt="host-6"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Rasel, Priya</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-2.jpg'); ?>" alt="show-2"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>02:45 - 03:10pm</p>
+                                                <h4>Music for Emotion</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-2.jpg'); ?>" alt="host-2"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Tahmina</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-8.jpg'); ?>" alt="show-8"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>06:45 - 08:10am</p>
+                                                <h4>Education for abroad</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-8.jpg'); ?>" alt="host-8"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-5.jpg'); ?>" alt="host-5"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Niloy, Shusmita</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="tab-pane" id="tue">
-                        <div class="row" id="Htue">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-1.jpg'); ?>" alt="show-1"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>08:00 - 10:00pm</p>
+                                                <h4>Tiny Time Talks</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-1.jpg'); ?>" alt="host-1"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Sumu, Monty, Rony</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-4.jpg'); ?>" alt="show-4"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>09:15 - 10:45pm</p>
+                                                <h4>Public Reaction</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Mahmud</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-3.jpg'); ?>" alt="show-3"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>03:15 - 04:55am</p>
+                                                <h4>Couple Story</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-3.jpg'); ?>" alt="host-3"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Bonny, Imran</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-7.jpg'); ?>" alt="show-7"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>05:25 - 06:30pm</p>
+                                                <h4>Transport Signal</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-5.jpg'); ?>" alt="host-5"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-1.jpg'); ?>" alt="host-1"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Ayman</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-5.jpg'); ?>" alt="show-5"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>01:45 - 02:30am</p>
+                                                <h4>Comedy Nightclub</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-5.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Farjana</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-6.jpg'); ?>" alt="show-6"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>04:45 - 05:30am</p>
+                                                <h4>Knowledge sharing</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-6.jpg'); ?>" alt="host-6"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Rasel, Priya</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-2.jpg'); ?>" alt="show-2"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>02:45 - 03:10pm</p>
+                                                <h4>Music for Emotion</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-2.jpg'); ?>" alt="host-2"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-5.jpg'); ?>" alt="host-5"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Tahmina, Akter</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-8.jpg'); ?>" alt="show-8"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>06:45 - 08:10am</p>
+                                                <h4>Education for abroad</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-8.jpg'); ?>" alt="host-8"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Niloy</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="tab-pane" id="wed">
-                        <div class="row" id="Hwed">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-1.jpg'); ?>" alt="show-1"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>08:00 - 10:00pm</p>
+                                                <h4>Tiny Time Talks</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-1.jpg'); ?>" alt="host-1"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-2.jpg'); ?>" alt="host-2"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Sumu, Rony</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-4.jpg'); ?>" alt="show-4"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>09:15 - 10:45pm</p>
+                                                <h4>Public Reaction</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-3.jpg'); ?>" alt="host-3"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Mahmud, Miron, Hasan</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-3.jpg'); ?>" alt="show-3"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>03:15 - 04:55am</p>
+                                                <h4>Couple Story</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-3.jpg'); ?>" alt="host-3"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Bonny, Imran</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-7.jpg'); ?>" alt="show-7"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>05:25 - 06:30pm</p>
+                                                <h4>Transport Signal</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Ayman</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-1.jpg'); ?>" alt="show-1"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>01:45 - 02:30am</p>
+                                                <h4>Comedy Nightclub</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-2.jpg'); ?>" alt="host-2"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Farjana</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-6.jpg'); ?>" alt="show-6"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>04:45 - 05:30am</p>
+                                                <h4>Knowledge sharing</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-6.jpg'); ?>" alt="host-6"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Rasel, Priya</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-2.jpg'); ?>" alt="show-2"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>02:45 - 03:10pm</p>
+                                                <h4>Music for Emotion</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-2.jpg'); ?>" alt="host-2"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Tahmina</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-3.jpg'); ?>" alt="show-3"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>06:45 - 08:10am</p>
+                                                <h4>Education for abroad</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-3.jpg'); ?>" alt="host-3"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-5.jpg'); ?>" alt="host-5"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Niloy, Shusmita</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="tab-pane" id="thu">
-                        <div class="row" id="Hthu">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-3.jpg'); ?>" alt="show-1"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>08:00 - 10:00pm</p>
+                                                <h4>Tiny Time Talks</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-3.jpg'); ?>" alt="host-3"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-2.jpg'); ?>" alt="host-2"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Sumu, Monty, Rony</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-4.jpg'); ?>" alt="show-4"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>09:15 - 10:45pm</p>
+                                                <h4>Public Reaction</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Mahmud</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-1.jpg'); ?>" alt="show-1"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>03:15 - 04:55am</p>
+                                                <h4>Couple Story</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-1.jpg'); ?>" alt="host-1"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-5.jpg'); ?>" alt="host-5"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Bonny, Imran, Sadik</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-7.jpg'); ?>" alt="show-7"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>05:25 - 06:30pm</p>
+                                                <h4>Transport Signal</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Ayman</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-5.jpg'); ?>" alt="show-5"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>01:45 - 02:30am</p>
+                                                <h4>Comedy Nightclub</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-5.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Farjana</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-6.jpg'); ?>" alt="show-6"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>04:45 - 05:30am</p>
+                                                <h4>Knowledge sharing</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-6.jpg'); ?>" alt="host-6"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Rasel, Priya</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-4.jpg'); ?>" alt="show-4"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>02:45 - 03:10pm</p>
+                                                <h4>Music for Emotion</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Tahmina</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-8.jpg'); ?>" alt="show-8"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>06:45 - 08:10am</p>
+                                                <h4>Education for abroad</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-8.jpg'); ?>" alt="host-8"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-5.jpg'); ?>" alt="host-5"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Niloy, Shusmita</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="tab-pane" id="fri">
-                        <div class="row" id="Hfri">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-3.jpg'); ?>" alt="show-3"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>08:00 - 10:00pm</p>
+                                                <h4>Tiny Time Talks</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-6.jpg'); ?>" alt="host-6"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-2.jpg'); ?>" alt="host-2"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-3.jpg'); ?>" alt="host-3"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Sumu, Monty, Rony</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-4.jpg'); ?>" alt="show-4"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>09:15 - 10:45pm</p>
+                                                <h4>Public Reaction</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Mahmud</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-3.jpg'); ?>" alt="show-3"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>03:15 - 04:55am</p>
+                                                <h4>Couple Story</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-3.jpg'); ?>" alt="host-3"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-4.jpg'); ?>" alt="host-4"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Bonny, Imran</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-7.jpg'); ?>" alt="show-7"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>05:25 - 06:30pm</p>
+                                                <h4>Transport Signal</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Ayman</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-8.jpg'); ?>" alt="show-8"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>01:45 - 02:30am</p>
+                                                <h4>Comedy Nightclub</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-8.jpg'); ?>" alt="host-8"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Farjana</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-6.jpg'); ?>" alt="show-6"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>04:45 - 05:30am</p>
+                                                <h4>Knowledge sharing</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-6.jpg'); ?>" alt="host-6"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-7.jpg'); ?>" alt="host-7"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Rasel, Priya</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-2.jpg'); ?>" alt="show-2"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>02:45 - 03:10pm</p>
+                                                <h4>Music for Emotion</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-2.jpg'); ?>" alt="host-2"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Tahmina</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="show-card">
+                                    <div class="show-content">
+                                        <div class="show-bg"><img src="<?php echo base_url('resources/assets/img/show-5.jpg'); ?>" alt="show-5"></div>
+                                        <div class="show-overlay">
+                                            <div class="show-time">
+                                                <p>06:45 - 08:10am</p>
+                                                <h4>Education for abroad</h4>
+                                            </div>
+                                            <ul class="show-host">
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-3.jpg'); ?>" alt="host-3"></a></li>
+                                                <li><a href="#"><img src="<?php echo base_url('resources/assets/img/host-5.jpg'); ?>" alt="host-5"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="show-meta">
+                                        <h5>RJ Niloy, Shusmita</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="show-btn"><a class="btn btn-outline" href="./show"><i
+                                class="fas fa-eye"></i><span>show more</span></a></div>
                 </div>
             </div>
         </div>
@@ -137,13 +1249,98 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Nuestro Equipo</h2>
+                        <h2>introduce our Team</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="team-slider slider-arrow" id="divTeams">
+                    <div class="team-slider slider-arrow">
+                        <div class="team-card">
+                            <div class="team-img"><img src="<?php echo base_url('resources/assets/img/team-1.jpg'); ?>" alt="team-1">
+                                <div class="team-overlay">
+                                    <ul class="team-icon">
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-meta">
+                                <h4>Miron Mahmud</h4>
+                                <p>Radio Jockey</p>
+                            </div>
+                        </div>
+                        <div class="team-card">
+                            <div class="team-img"><img src="<?php echo base_url('resources/assets/img/team-2.jpg'); ?>" alt="team-2">
+                                <div class="team-overlay">
+                                    <ul class="team-icon">
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-meta">
+                                <h4>Tahmina Bonny</h4>
+                                <p>Radio Jockey</p>
+                            </div>
+                        </div>
+                        <div class="team-card">
+                            <div class="team-img"><img src="<?php echo base_url('resources/assets/img/team-3.jpg'); ?>" alt="team-3">
+                                <div class="team-overlay">
+                                    <ul class="team-icon">
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-meta">
+                                <h4>Rocky Jonson</h4>
+                                <p>Music Composer</p>
+                            </div>
+                        </div>
+                        <div class="team-card">
+                            <div class="team-img"><img src="<?php echo base_url('resources/assets/img/team-4.jpg'); ?>" alt="team-4">
+                                <div class="team-overlay">
+                                    <ul class="team-icon">
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-meta">
+                                <h4>Miron Mahmud</h4>
+                                <p>Radio Jockey</p>
+                            </div>
+                        </div>
+                        <div class="team-card">
+                            <div class="team-img"><img src="<?php echo base_url('resources/assets/img/team-5.jpg'); ?>" alt="team-1">
+                                <div class="team-overlay">
+                                    <ul class="team-icon">
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a class="icon icon-inline" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-meta">
+                                <h4>Miron Mahmud</h4>
+                                <p>Radio Jockey</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -168,7 +1365,7 @@
                 <div class="col-lg-12">
                     <div class="video-slider slider-arrow">
                         <div class="video-card">
-                            <div class="video-img"><img src="assets/img/video-1.jpg" alt="video-1">
+                            <div class="video-img"><img src="<?php echo base_url('resources/assets/img/video-1.jpg'); ?>" alt="video-1">
                                 <div class="video-overlay"><a class="venobox icon icon-inline" data-autoplay="true"
                                         data-vbtype="video" href="https://youtu.be/J7Kyv2inOMU"><i
                                             class="fas fa-play"></i></a></div>
@@ -179,7 +1376,7 @@
                             </div>
                         </div>
                         <div class="video-card">
-                            <div class="video-img"><img src="assets/img/video-2.jpg" alt="video-2">
+                            <div class="video-img"><img src="<?php echo base_url('resources/assets/img/video-2.jpg'); ?>" alt="video-2">
                                 <div class="video-overlay"><a class="venobox icon icon-inline" data-autoplay="true"
                                         data-vbtype="video" href="https://youtu.be/J7Kyv2inOMU"><i
                                             class="fas fa-play"></i></a></div>
@@ -190,7 +1387,7 @@
                             </div>
                         </div>
                         <div class="video-card">
-                            <div class="video-img"><img src="assets/img/video-3.jpg" alt="video-3">
+                            <div class="video-img"><img src="<?php echo base_url('resources/assets/img/video-3.jpg'); ?>" alt="video-3">
                                 <div class="video-overlay"><a class="venobox icon icon-inline" data-autoplay="true"
                                         data-vbtype="video" href="https://youtu.be/J7Kyv2inOMU"><i
                                             class="fas fa-play"></i></a></div>
@@ -201,7 +1398,7 @@
                             </div>
                         </div>
                         <div class="video-card">
-                            <div class="video-img"><img src="assets/img/video-4.jpg" alt="video-4">
+                            <div class="video-img"><img src="<?php echo base_url('resources/assets/img/video-4.jpg'); ?>" alt="video-4">
                                 <div class="video-overlay"><a class="venobox icon icon-inline" data-autoplay="true"
                                         data-vbtype="video" href="https://youtu.be/J7Kyv2inOMU"><i
                                             class="fas fa-play"></i></a></div>
@@ -235,13 +1432,13 @@
                 <div class="col-lg-12">
                     <div class="gallery-content">
                         <ul class="gallery-list">
-                            <li class="verti-img"><img src="assets/img/gallery-1.jpg" alt="gallery-1"></li>
-                            <li class="hori-img"><img src="assets/img/gallery-2.jpg" alt="gallery-2"></li>
-                            <li class="big-img"><img src="assets/img/gallery-3.jpg" alt="gallery-3"></li>
-                            <li><img src="assets/img/gallery-4.jpg" alt="gallery-4"></li>
-                            <li><img src="assets/img/gallery-5.jpg" alt="gallery-5"></li>
-                            <li><img src="assets/img/gallery-6.jpg" alt="gallery-6"></li>
-                            <li><img src="assets/img/gallery-7.jpg" alt="gallery-7"></li>
+                            <li class="verti-img"><img src="<?php echo base_url('resources/assets/img/gallery-1.jpg'); ?>" alt="gallery-1"></li>
+                            <li class="hori-img"><img src="<?php echo base_url('resources/assets/img/gallery-2.jpg'); ?>" alt="gallery-2"></li>
+                            <li class="big-img"><img src="<?php echo base_url('resources/assets/img/gallery-3.jpg'); ?>" alt="gallery-3"></li>
+                            <li><img src="<?php echo base_url('resources/assets/img/gallery-4.jpg'); ?>" alt="gallery-4"></li>
+                            <li><img src="<?php echo base_url('resources/assets/img/gallery-5.jpg'); ?>" alt="gallery-5"></li>
+                            <li><img src="<?php echo base_url('resources/assets/img/gallery-6.jpg'); ?>" alt="gallery-6"></li>
+                            <li><img src="<?php echo base_url('resources/assets/img/gallery-7.jpg'); ?>" alt="gallery-7"></li>
                         </ul>
                     </div>
                 </div>
@@ -266,28 +1463,28 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="blog-slider slider-arrow">
-                        <div class="blog-card"><img src="assets/img/blog-1.jpg" alt="blog-1">
+                        <div class="blog-card"><img src="<?php echo base_url('resources/assets/img/blog-1.jpg'); ?>" alt="blog-1">
                             <div class="blog-overlay">
                                 <p>03 february 2020</p>
                                 <h3><a href="#">Lorem ipsum dolor sit ame consectetur adipiscing</a></h3><a
                                     class="btn btn-outline" href="#">read more</a>
                             </div>
                         </div>
-                        <div class="blog-card"><img src="assets/img/blog-2.jpg" alt="blog-2">
+                        <div class="blog-card"><img src="<?php echo base_url('resources/assets/img/blog-2.jpg'); ?>" alt="blog-2">
                             <div class="blog-overlay">
                                 <p>03 february 2020</p>
                                 <h3><a href="#">Lorem ipsum dolor sit ame consectetur adipiscing</a></h3><a
                                     class="btn btn-outline" href="#">read more</a>
                             </div>
                         </div>
-                        <div class="blog-card"><img src="assets/img/blog-3.jpg" alt="blog-3">
+                        <div class="blog-card"><img src="<?php echo base_url('resources/assets/img/blog-3.jpg'); ?>" alt="blog-3">
                             <div class="blog-overlay">
                                 <p>03 february 2020</p>
                                 <h3><a href="#">Lorem ipsum dolor sit ame consectetur adipiscing</a></h3><a
                                     class="btn btn-outline" href="#">read more</a>
                             </div>
                         </div>
-                        <div class="blog-card"><img src="assets/img/blog-4.jpg" alt="blog-4">
+                        <div class="blog-card"><img src="<?php echo base_url('resources/assets/img/blog-4.jpg'); ?>" alt="blog-4">
                             <div class="blog-overlay">
                                 <p>03 february 2020</p>
                                 <h3><a href="#">Lorem ipsum dolor sit ame consectetur adipiscing</a></h3><a
@@ -305,18 +1502,18 @@
             </div>
         </div>
     </section>
-    <script src="assets/js/vendor/axios.min.js"></script>
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/vendor/slick.min.js"></script>
-    <script src="assets/js/vendor/venobox.min.js"></script>
-    <script src="assets/js/custom/venobox.js"></script>
-     <script src="assets/js/vendor/popper5.min.js"></script>
-    <script src="assets/js/vendor/bootstrap5.min.js"></script>
-    <script src="assets/js/custom/player.js"></script>
-    <script src="assets/js/custom/slickGetsOnTo.js"></script>
-    <script src="assets/js/custom/main.js"></script>
 
-    <script>
+     <script src="<?php echo base_url('resources/assets/js/vendor/jquery-1.12.4.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/vendor/popper.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/vendor/bootstrap.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/vendor/slick.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/custom/slick.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/vendor/venobox.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/custom/venobox.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/custom/player.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/custom/main.js'); ?>"></script>
+
+   <!--  <script>
         goSlider();
         $('.venobox').venobox();
-    </script>
+    </script> -->

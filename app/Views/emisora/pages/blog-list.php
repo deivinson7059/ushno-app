@@ -1,4 +1,4 @@
- <link rel="stylesheet" href="assets/css/custom/blog-list.css">
+ <link rel="stylesheet" href="<?php echo base_url('resources/assets/css/custom/blog-list.css'); ?>">
 <div class="bottom-player">
         <div class="player"><button class="player-btn" id="play-pause-button2"><i class="fas fa-play"></i></button>
         </div>
@@ -32,7 +32,7 @@
                                 <h3>popular post</h3>
                                 <ul class="blog-suggest">
                                     <li>
-                                        <div class="suggest-img"><a href="#"><img src="assets/img/suggest-1.jpg"
+                                        <div class="suggest-img"><a href="#"><img src="<?php echo base_url('resources/assets/img/suggest-1.jpg'); ?>"
                                                     alt="suggest-1"></a></div>
                                         <div class="suggest-content">
                                             <div class="suggest-title">
@@ -50,7 +50,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="suggest-img"><a href="#"><img src="assets/img/suggest-2.jpg"
+                                        <div class="suggest-img"><a href="#"><img src="<?php echo base_url('resources/assets/img/suggest-2.jpg'); ?>"
                                                     alt="suggest-2"></a></div>
                                         <div class="suggest-content">
                                             <div class="suggest-title">
@@ -68,7 +68,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="suggest-img"><a href="#"><img src="assets/img/suggest-3.jpg"
+                                        <div class="suggest-img"><a href="#"><img src="<?php echo base_url('resources/assets/img/suggest-3.jpg'); ?>"
                                                     alt="suggest-3"></a></div>
                                         <div class="suggest-content">
                                             <div class="suggest-title">
@@ -145,7 +145,9 @@
                             </div>
                         </div>
                         <div class="col-lg-12">
-                            <div class="blog-ad"><a href="#"><img src="assets/img/ad-banner.jpg" alt="ad-banner"></a>
+                            <div class="blog-ad"><a href="#">
+                                hola
+                                <img src="<?php echo base_url('resources/assets/img/ad-banner.jpg'); ?>"  alt="ad-banner"></a>
                             </div>
                         </div>
                     </div>
@@ -153,7 +155,7 @@
                 <div class="col-lg-8">
                     <div class="row">
                         <div class="col-sm-6 col-md-6 col-lg-6">
-                            <div class="blog-card"><img src="assets/img/blog-1.jpg" alt="blog-1">
+                            <div class="blog-card"><img src="<?php echo base_url('resources/assets/img/blog-1.jpg'); ?>" alt="blog-1">
                                 <div class="blog-overlay">
                                     <p>03 february 2020</p>
                                     <h3><a href="#">Lorem ipsum dolor sit ame consectetur adipiscing</a></h3><a
@@ -162,7 +164,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-6">
-                            <div class="blog-card"><img src="assets/img/blog-2.jpg" alt="blog-2">
+                            <div class="blog-card"><img src="<?php echo base_url('resources/assets/img/blog-2.jpg'); ?>" alt="blog-2">
                                 <div class="blog-overlay">
                                     <p>03 february 2020</p>
                                     <h3><a href="#">Lorem ipsum dolor sit ame consectetur adipiscing</a></h3><a
@@ -171,7 +173,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-6">
-                            <div class="blog-card"><img src="assets/img/blog-3.jpg" alt="blog-3">
+                            <div class="blog-card"><img src="<?php echo base_url('resources/assets/img/blog-3.jpg'); ?>" alt="blog-3">
                                 <div class="blog-overlay">
                                     <p>03 february 2020</p>
                                     <h3><a href="#">Lorem ipsum dolor sit ame consectetur adipiscing</a></h3><a
@@ -180,7 +182,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-6">
-                            <div class="blog-card"><img src="assets/img/blog-4.jpg" alt="blog-4">
+                            <div class="blog-card"><img src="<?php echo base_url('resources/assets/img/blog-4.jpg'); ?>" alt="blog-4">
                                 <div class="blog-overlay">
                                     <p>03 february 2020</p>
                                     <h3><a href="#">Lorem ipsum dolor sit ame consectetur adipiscing</a></h3><a
@@ -189,7 +191,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-6">
-                            <div class="blog-card"><img src="assets/img/blog-5.jpg" alt="blog-5">
+                            <div class="blog-card"><img src="<?php echo base_url('resources/assets/img/blog-5.jpg'); ?>" alt="blog-5">
                                 <div class="blog-overlay">
                                     <p>03 february 2020</p>
                                     <h3><a href="#">Lorem ipsum dolor sit ame consectetur adipiscing</a></h3><a
@@ -198,7 +200,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-6">
-                            <div class="blog-card"><img src="assets/img/blog-6.jpg" alt="blog-6">
+                            <div class="blog-card"><img src="<?php echo base_url('resources/assets/img/blog-6.jpg'); ?>" alt="blog-6">
                                 <div class="blog-overlay">
                                     <p>03 february 2020</p>
                                     <h3><a href="#">Lorem ipsum dolor sit ame consectetur adipiscing</a></h3><a
@@ -207,7 +209,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-6">
-                            <div class="blog-card"><img src="assets/img/blog-7.jpg" alt="blog-7">
+                            <div class="blog-card"><img src="<?php echo base_url('resources/assets/img/blog-7.jpg'); ?>" alt="blog-7">
                                 <div class="blog-overlay">
                                     <p>03 february 2020</p>
                                     <h3><a href="#">Lorem ipsum dolor sit ame consectetur adipiscing</a></h3><a
@@ -216,7 +218,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-6">
-                            <div class="blog-card"><img src="assets/img/blog-8.jpg" alt="blog-8">
+                            <div class="blog-card"><img src="<?php echo base_url('resources/assets/img/blog-8.jpg'); ?>" alt="blog-8">
                                 <div class="blog-overlay">
                                     <p>03 february 2020</p>
                                     <h3><a href="#">Lorem ipsum dolor sit ame consectetur adipiscing</a></h3><a
@@ -244,8 +246,8 @@
             </div>
         </div>
     </section>
-     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-     <script src="assets/js/vendor/popper5.min.js"></script>
-    <script src="assets/js/vendor/bootstrap5.min.js"></script>
-    <script src="assets/js/custom/player.js"></script>
-    <script src="assets/js/custom/main.js"></script>
+     <script src="<?php echo base_url('resources/assets/js/vendor/jquery-1.12.4.min.js'); ?>"></script>
+     <script src="<?php echo base_url('resources/assets/js/vendor/popper5.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/vendor/bootstrap5.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/custom/player.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/custom/main.js'); ?>"></script>

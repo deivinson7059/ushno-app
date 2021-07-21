@@ -42,8 +42,8 @@ $routes->get('/blog-details', 'HomeController::blogdetails');
 $routes->get('/contact', 'HomeController::contact');
 
 #Creamos las rutas del admin
-$routes->get('/login', 'HomeController::login');
-$routes->get('/logout', 'HomeController::logout');
+$routes->get('/admin/login', 'HomeController::login');
+$routes->get('/admin/logout', 'HomeController::logout');
 $routes->get('/admin', 'HomeController::admin');
 
 #Creamos las rutas perfiles

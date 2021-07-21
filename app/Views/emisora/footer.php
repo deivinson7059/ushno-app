@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="footer-logo"><a href="#"><img src="assets/img/logo.png" alt="logo"></a>
+                    <div class="footer-logo"><a href="#"><img src="<?php echo base_url('resources/assets/img/logo.png'); ?>" alt="logo"></a>
                         <ul>
                             <li><a class="icon icon-inline" href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a class="icon icon-inline" href="#"><i class="fab fa-twitter"></i></a></li>
@@ -57,8 +57,8 @@
                             <li>
                                 <h5>available on -</h5>
                             </li>
-                            <li><a href="#"><img src="assets/img/google.png" alt="google"></a></li>
-                            <li><a href="#"><img src="assets/img/app.png" alt="app"></a></li>
+                            <li><a href="#"><img src="<?php echo base_url('resources/assets/img/google.png'); ?>" alt="google"></a></li>
+                            <li><a href="#"><img src="<?php echo base_url('resources/assets/img/app.png'); ?>" alt="app"></a></li>
                         </ul>
                     </div>
                 </div>
@@ -69,13 +69,13 @@
         <div class="container">
             <ul>
                 <li>
-                    <h6>&copy; Copyright - <span>2020</span></h6>
+                    <h6>&copy; Copyright - <span>2021</span></h6>
                 </li>
                 <li>
                     <h6>All rights reserved by - <span>Ushno</span></h6>
                 </li>
                 <li>
-                    <h6>Developed by - <a target="_blank" href="https://themeforest.net/user/mironcoder">Mironcoder</a>
+                    <h6>Developed by - <a target="_blank" href="https://danisoft.com.co">Danisoft sas</a>
                     </h6>
                 </li>
             </ul>

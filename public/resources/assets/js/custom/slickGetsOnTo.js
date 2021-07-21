@@ -10,37 +10,42 @@ function goHorario(url, contenedor) {
             var data = data.data;
             //console.log(data);
             if (data.status == 200) {
-                var response = data.Horario;
-                for (var k in response) {
+                var response = data.lista;
 
-                    var dia_name = response[k].dia_name;
-                    var horario = response[k].horario;
-                    var descripcion = response[k].descripcion;
-                    var frase = response[k].frase;
-                    var image = "assets/img/show-" + response[k].id + ".jpg";
+                if (response.length > 0) {
 
-                    var div = '<div class="col-sm-6 col-md-4 col-lg-3">' +
-                        '<div class="show-card">' +
-                        '<div class="show-content">' +
-                        '<div class="show-bg"><img src="' + image + '" alt="' + dia_name + '"></div>' +
-                        '<div class="show-overlay">' +
-                        '<div class="show-time">' +
-                        '<p>' + horario + '</p>' +
-                        '<h4>' + descripcion + '</h4>' +
-                        '</div>' +
-                        '<ul class="show-host">' +
-                        '<li><a href="#"><img src="https://maranatha-radio.com/assets/img/about-12.png" alt="host-1"></a>' +
-                        '</li>' +
-                        '</ul>' +
-                        '</div>' +
-                        '</div>' +
-                        '<div class="show-meta">' +
-                        '<h5>' + frase + '</h5>' +
-                        '</div>' +
-                        '</div>' +
-                        '</div>';
+                    console.log(response);
+                    for (var k in response) {
+                        var dia_name = response[k].dia_nombre;
+                        var horario = response[k].horario;
+                        var descripcion = response[k].descripcion;
+                        var frase = response[k].frase;
+                        var image = "resources/assets/img/show-" + response[k].hor_id + ".jpg";
 
-                    $(contenedor).append(div);
+                        var div = '<div class="col-sm-6 col-md-4 col-lg-3">' +
+                            '<div class="show-card">' +
+                            '<div class="show-content">' +
+                            '<div class="show-bg"><img src="' + image + '" alt="' + dia_name + '"></div>' +
+                            '<div class="show-overlay">' +
+                            '<div class="show-time">' +
+                            '<p>' + horario + '</p>' +
+                            '<h4>' + descripcion + '</h4>' +
+                            '</div>' +
+                            '<ul class="show-host">' +
+                            '<li><a href="#"><img src="https://maranatha-radio.com/assets/img/about-12.png" alt="host-1"></a>' +
+                            '</li>' +
+                            '</ul>' +
+                            '</div>' +
+                            '</div>' +
+                            '<div class="show-meta">' +
+                            '<h5>' + frase + '</h5>' +
+                            '</div>' +
+                            '</div>' +
+                            '</div>';
+                        console.log(div);
+
+                        $(contenedor).append(div);
+                    }
                 }
 
             } else {
@@ -52,8 +57,7 @@ function goHorario(url, contenedor) {
 
 
 function goTeams() {
-    var url = "http://127.0.0.1:4000/teams";
-    var teams;
+    var url = "http://localhost/ushno-api/public/emisora/teams";
     axios({
         method: 'get',
         url: url,
@@ -62,21 +66,13 @@ function goTeams() {
         .then(function (data) {
             var data = data.data.teams;
 
-            teams = data.data.teams;
             for (var k in data) {
-                var image = data[k]["image"];
-                var name = data[k]["name"];
-                var radio = data[k]["radio"];
+                var image = data[k]["te_image"];
+                var name = data[k]["te_nombre"];
+                var radio = data[k]["te_nick"];
 
-                joder(image, name, radio);
-            }
-
-        });
-
-
-    for (let index = 0; index < 11; index++) {
-        var joder = `<div class="team-card">
-                            <div class="team-img"><img src="assets/img/team-${index + 1}.jpg" alt="team-1">
+                var div = `<div class="team-card">
+                            <div class="team-img"><img src="resources/assets/img/${image}" alt="team-1">
                                 <div class="team-overlay">
                                     <ul class="team-icon">
                                         <li><a class="icon icon-inline" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -88,28 +84,18 @@ function goTeams() {
                                 </div>
                             </div>
                             <div class="team-meta">
-                                <h4>Miron Mahmud</h4>
-                                <p>Radio Jockey</p>
+                                <h4>${name}</h4>
+                                <p>${radio}</p>
                             </div>
                         </div>`;
 
-        $('#divTeams').append(joder);
+                $('#divTeams').append(div);
 
-    }
+            }
 
+        });
 
-
-    /*   
-       $('#divTeams').append(joder);
-       $('#divTeams').append(joder);
-       $('#divTeams').append(joder);
-       $('#divTeams').append(joder);
-       $('#divTeams').append(joder);
-       $('#divTeams').append(joder);
-       $('#divTeams').append(joder);
-       $('#divTeams').append(joder);
-       $('#divTeams').append(joder);
-       $('#divTeams').append(joder); */
+    goSlider();
 
 }
 
@@ -348,12 +334,12 @@ function goSlider() {
     });
 }
 
-goHorario('http://127.0.0.1:4000/Horario/1', '#Hsat');
-goHorario('http://127.0.0.1:4000/Horario/2', '#Hsun');
-goHorario('http://127.0.0.1:4000/Horario/3', '#Hmon');
-goHorario('http://127.0.0.1:4000/Horario/4', '#Htue');
-goHorario('http://127.0.0.1:4000/Horario/5', '#Hwed');
-goHorario('http://127.0.0.1:4000/Horario/6', '#Hthu');
-goHorario('http://127.0.0.1:4000/Horario/7', '#Hfri');
+goHorario('http://localhost/ushno-api/public/emisora/horario/1', '#Hsat');
+goHorario('http://localhost/ushno-api/public/emisora/horario/2', '#Hsun');
+goHorario('http://localhost/ushno-api/public/emisora/horario/3', '#Hmon');
+goHorario('http://localhost/ushno-api/public/emisora/horario/4', '#Htue');
+goHorario('http://localhost/ushno-api/public/emisora/horario/5', '#Hwed');
+goHorario('http://localhost/ushno-api/public/emisora/horario/6', '#Hthu');
+goHorario('http://localhost/ushno-api/public/emisora/horario/7', '#Hfri');
 goTeams();
 

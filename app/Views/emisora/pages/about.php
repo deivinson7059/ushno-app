@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/css/custom/about.css">
+<link rel="stylesheet" href="<?php echo base_url('resources/assets/css/custom/about.css'); ?>">
 <div class="bottom-player">
         <div class="player"><button class="player-btn" id="play-pause-button2"><i class="fas fa-play"></i></button>
         </div>
@@ -37,8 +37,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
-                    <div class="about-img"><a href="#" class="about-1"><img src="assets/img/about-1.jpg"
-                                alt="about-1"></a><a href="#" class="about-2"><img src="assets/img/about-2.jpg"
+                    <div class="about-img"><a href="#" class="about-1"><img src="<?php echo base_url('resources/assets/img/about-1.jpg'); ?>"
+                                alt="about-1"></a><a href="#" class="about-2"><img src="<?php echo base_url('resources/assets/img/about-2.jpg'); ?>"
                                 alt="about-2"></a></div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -105,7 +105,7 @@
                                 <p>Lorem ipsum dolor nobis molestias quis quam ullam optio natus quisquam</p>
                             </div>
                             <div class="testi-meta">
-                                <div class="testi-img"><a href="#"><img src="assets/img/testi-1.jpg" alt="testi-1"></a>
+                                <div class="testi-img"><a href="#"><img src="<?php echo base_url('resources/assets/img/testi-1.jpg'); ?>" alt="testi-1"></a>
                                 </div>
                                 <div class="testi-info">
                                     <h4>Morgan threture</h4>
@@ -118,7 +118,7 @@
                                 <p>Lorem ipsum dolor nobis molestias quis quam ullam optio natus quisquam</p>
                             </div>
                             <div class="testi-meta">
-                                <div class="testi-img"><a href="#"><img src="assets/img/testi-2.jpg" alt="testi-2"></a>
+                                <div class="testi-img"><a href="#"><img src="<?php echo base_url('resources/assets/img/testi-2.jpg'); ?>" alt="testi-2"></a>
                                 </div>
                                 <div class="testi-info">
                                     <h4>Morgan threture</h4>
@@ -131,7 +131,7 @@
                                 <p>Lorem ipsum dolor nobis molestias quis quam ullam optio natus quisquam</p>
                             </div>
                             <div class="testi-meta">
-                                <div class="testi-img"><a href="#"><img src="assets/img/testi-3.jpg" alt="testi-3"></a>
+                                <div class="testi-img"><a href="#"><img src="<?php echo base_url('resources/assets/img/testi-3.jpg'); ?>" alt="testi-3"></a>
                                 </div>
                                 <div class="testi-info">
                                     <h4>Morgan threture</h4>
@@ -144,7 +144,7 @@
                                 <p>Lorem ipsum dolor nobis molestias quis quam ullam optio natus quisquam</p>
                             </div>
                             <div class="testi-meta">
-                                <div class="testi-img"><a href="#"><img src="assets/img/testi-4.jpg" alt="testi-4"></a>
+                                <div class="testi-img"><a href="#"><img src="<?php echo base_url('resources/assets/img/testi-4.jpg'); ?>" alt="testi-4"></a>
                                 </div>
                                 <div class="testi-info">
                                     <h4>Morgan threture</h4>
@@ -168,12 +168,12 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="sponsor-slider slider-arrow"><a href="#"><img src="assets/img/sponsor-1.jpg"
-                                alt="sponsor-1"></a><a href="#"><img src="assets/img/sponsor-2.jpg"
-                                alt="sponsor-2"></a><a href="#"><img src="assets/img/sponsor-3.jpg"
-                                alt="sponsor-3"></a><a href="#"><img src="assets/img/sponsor-4.jpg"
-                                alt="sponsor-4"></a><a href="#"><img src="assets/img/sponsor-5.jpg"
-                                alt="sponsor-5"></a><a href="#"><img src="assets/img/sponsor-3.jpg" alt="sponsor-3"></a>
+                    <div class="sponsor-slider slider-arrow"><a href="#"><img src="<?php echo base_url('resources/assets/img/sponsor-1.jpg'); ?>"
+                                alt="sponsor-1"></a><a href="#"><img src="<?php echo base_url('resources/assets/img/sponsor-2.jpg'); ?>"
+                                alt="sponsor-2"></a><a href="#"><img src="<?php echo base_url('resources/assets/img/sponsor-3.jpg'); ?>"
+                                alt="sponsor-3"></a><a href="#"><img src="<?php echo base_url('resources/assets/img/sponsor-4.jpg'); ?>"
+                                alt="sponsor-4"></a><a href="#"><img src="<?php echo base_url('resources/assets/img/sponsor-5.jpg'); ?>"
+                                alt="sponsor-5"></a><a href="#"><img src="<?php echo base_url('resources/assets/img/sponsor-3.jpg'); ?>" alt="sponsor-3"></a>
                     </div>
                 </div>
             </div>
@@ -194,13 +194,13 @@
         </div>
     </section>
 
-     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-   <script src="assets/js/vendor/popper5.min.js"></script>
-    <script src="assets/js/vendor/bootstrap5.min.js"></script>
-    <script src="assets/js/custom/player.js"></script>
-    <script src="assets/js/vendor/slick.min.js"></script>
-    <script src="assets/js/custom/slick.js"></script>
-    <script src="assets/js/vendor/counterup.min.js"></script>
-    <script src="assets/js/vendor/waypoints.min.js"></script>
-    <script src="assets/js/custom/counterup.js"></script>
-    <script src="assets/js/custom/main.js"></script>
+     <script src="<?php echo base_url('resources/assets/js/vendor/jquery-1.12.4.min.js'); ?>"></script>
+   <script src="<?php echo base_url('resources/assets/js/vendor/popper5.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/vendor/bootstrap5.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/custom/player.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/vendor/slick.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/custom/slick.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/vendor/counterup.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/vendor/waypoints.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/custom/counterup.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/custom/main.js'); ?>"></script>

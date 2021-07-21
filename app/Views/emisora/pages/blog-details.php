@@ -1,5 +1,5 @@
 
-    <link rel="stylesheet" href="assets/css/custom/blog-details.css">
+    <link rel="stylesheet" href="<?php echo base_url('resources/assets/css/custom/blog-details.css'); ?>">
     <div class="bottom-player">
         <div class="player"><button class="player-btn" id="play-pause-button2"><i class="fas fa-play"></i></button>
         </div>
@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="blog-det-banner"><img src="assets/img/blog-details.jpg" alt="blog-details">
+                    <div class="blog-det-banner"><img src="<?php echo base_url('resources/assets/img/blog-details.jpg'); ?>" alt="blog-details">
                         <div class="blog-det-content">
                             <div class="blog-det-title">
                                 <h2><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit Sint quod soluta
@@ -105,7 +105,7 @@
                         </ul>
                     </div>
                     <div class="blog-det-author">
-                        <div class="author-img"><a href="#"><img src="assets/img/author.jpg" alt="author"></a>
+                        <div class="author-img"><a href="#"><img src="<?php echo base_url('resources/assets/img/author.jpg'); ?>" alt="author"></a>
                             <ul class="author-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -120,10 +120,10 @@
                         </div>
                     </div>
                     <div class="blog-det-navigate">
-                        <div class="navigate-post"><img src="assets/img/blog-details.jpg" alt="">
+                        <div class="navigate-post"><img src="<?php echo base_url('resources/assets/img/blog-details.jpg'); ?>" alt="">
                             <h4><a href="#">Lorem ipsum dolor amet consectetur quod earum soluta adipisicing.</a></h4>
                         </div>
-                        <div class="navigate-post"><img src="assets/img/blog-details.jpg" alt="">
+                        <div class="navigate-post"><img src="<?php echo base_url('resources/assets/img/blog-details.jpg'); ?>" alt="">
                             <h4><a href="#">Lorem ipsum dolor amet consectetur quod earum soluta adipisicing.</a></h4>
                         </div><a href="#" class="prev-arrow"><i class="fas fa-long-arrow-alt-left"></i>Previous
                             Post</a><a href="#" class="next-arrow">Next Post<i
@@ -134,7 +134,7 @@
                         <ul class="comment-list">
                             <li>
                                 <div class="comment">
-                                    <div class="comment-img"><a href="#"><img src="assets/img/comment-1.jpg"
+                                    <div class="comment-img"><a href="#"><img src="<?php echo base_url('resources/assets/img/comment-1.jpg'); ?>"
                                                 alt="comment-1"></a></div>
                                     <div class="comment-content">
                                         <h4>Miron Mahmud <span>02 February 2020</span></h4>
@@ -148,7 +148,7 @@
                                 <ul>
                                     <li>
                                         <div class="comment">
-                                            <div class="comment-img"><a href="#"><img src="assets/img/comment-2.jpg"
+                                            <div class="comment-img"><a href="#"><img src="<?php echo base_url('resources/assets/img/comment-2.jpg'); ?>"
                                                         alt="comment-2"></a></div>
                                             <div class="comment-content">
                                                 <h4>Tahmina Bonny <span>02 February 2020</span></h4>
@@ -164,7 +164,7 @@
                             </li>
                             <li>
                                 <div class="comment">
-                                    <div class="comment-img"><a href="#"><img src="assets/img/comment-3.jpg"
+                                    <div class="comment-img"><a href="#"><img src="<?php echo base_url('resources/assets/img/comment-3.jpg'); ?>"
                                                 alt="comment-3"></a></div>
                                     <div class="comment-content">
                                         <h4>Labonno Khan <span>02 February 2020</span></h4>
@@ -205,8 +205,8 @@
             </div>
         </div>
     </section>
-     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-     <script src="assets/js/vendor/popper5.min.js"></script>
-    <script src="assets/js/vendor/bootstrap5.min.js"></script>
-    <script src="assets/js/custom/player.js"></script>
-    <script src="assets/js/custom/main.js"></script>
+     <script src="<?php echo base_url('resources/assets/js/vendor/jquery-1.12.4.min.js'); ?>"></script>
+     <script src="<?php echo base_url('resources/assets/js/vendor/popper5.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/vendor/bootstrap5.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/custom/player.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/custom/main.js'); ?>"></script>

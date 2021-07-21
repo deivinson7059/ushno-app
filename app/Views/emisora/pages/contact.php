@@ -1,4 +1,4 @@
- <link rel="stylesheet" href="assets/css/custom/contact.css">
+ <link rel="stylesheet" href="<?php echo base_url('resources/assets/css/custom/contact.css'); ?>">
 <div class="bottom-player">
         <div class="player"><button class="player-btn" id="play-pause-button2"><i class="fas fa-play"></i></button>
         </div>
@@ -60,8 +60,8 @@
             </div>
         </div>
     </section>
-     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-     <script src="assets/js/vendor/popper5.min.js"></script>
-    <script src="assets/js/vendor/bootstrap5.min.js"></script>
-    <script src="assets/js/custom/player.js"></script>
-    <script src="assets/js/custom/main.js"></script>
+     <script src="<?php echo base_url('resources/assets/js/vendor/jquery-1.12.4.min.js'); ?>"></script>
+     <script src="<?php echo base_url('resources/assets/js/vendor/popper5.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/vendor/bootstrap5.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/custom/player.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/custom/main.js'); ?>"></script>

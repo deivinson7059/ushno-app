@@ -11,11 +11,12 @@
   <meta name="author" content="">
 
   <title>Panel Administrativo</title>
+    <link rel="icon" href="<?php echo base_url('resources/assets/img/favicon.png'); ?>">
   <!-- Custom fonts for this template-->
-  <link href="<?php echo base_url('assets/font/fontawesome-free/css/all.min.css') ?>" rel="stylesheet" type="text/css">
+  <link href="<?php echo base_url('/resources/assets/font/fontawesome-free/css/all.min.css') ?>" rel="stylesheet" type="text/css">
 
   <!-- Custom styles for this template-->
-  <link href="<?php echo base_url('assets/css/vendor/sb-admin-2.min.css') ?>" rel="stylesheet">
+  <link href="<?php echo base_url('/resources/assets/css/vendor/sb-admin-2.min.css') ?>" rel="stylesheet">
 
 </head>
 <body id="page-top">
@@ -146,7 +147,7 @@
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo "Administrador"; ?></span>
 <!--                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">-->
-                <img class="img-profile rounded-circle" src="<?php echo base_url('assets/img/user.png') ?>">
+                <img class="img-profile rounded-circle" src="<?php echo base_url('/resources/assets/img/user.png') ?>">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
