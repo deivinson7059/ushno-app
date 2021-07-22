@@ -17,7 +17,15 @@
 
   <!-- Custom styles for this template-->
   <link href="<?php echo base_url('/resources/assets/css/vendor/sb-admin-2.min.css') ?>" rel="stylesheet">
-
+  <link rel="stylesheet" href="<?php echo base_url('resources/css/sweetalert.css'); ?>">
+  <link rel="stylesheet" href="<?php echo base_url('resources/css/toastr.css'); ?>">
+	<script src="<?php echo base_url('resources/js/jquery-3.6.0.js'); ?>"></script>
+<script src="<?php echo base_url('resources/assets/js/vendor/popper5.min.js'); ?>"></script>
+    <script src="<?php echo base_url('resources/assets/js/vendor/bootstrap5.min.js'); ?>"></script>
+<script src="<?php echo base_url('resources/js/toastr.min.js'); ?>"></script>
+<script src="<?php echo base_url('resources/js/sweetalert.min.js'); ?>"></script>
+	<script src="<?php echo base_url('resources/js/jquery.blockUI.js'); ?>"></script>
+	<script src="<?php echo base_url('resources/js/utilities.js'); ?>"></script>
 </head>
 <body id="page-top">
   <!-- Page Wrapper -->

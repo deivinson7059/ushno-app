@@ -1,9 +1,10 @@
+
 <div class="card mx-auto" style="width: 98%;">
   <div class="card-header">
     Editar Horario
   </div>
   <div class="card-body">
-<form action="<?php echo site_url('/admin/horario/update') ?>" method="post">
+<form id="frmLogin" role="form">
 <div class="row">
     <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
         <div class="form-group">
@@ -13,8 +14,8 @@
                      <option value="<?php echo $lista[0]['dia_id']; ?>"><?php echo $lista[0]['dia_nombre']; ?></option>
                     <option value=""></option>
                     <?php foreach ($combo as $comb): //recorre el listado de la respuesta y lo muestra ?>
-																																							  <option value="<?php echo $comb['dia_id'] ?> "><?php echo $comb['dia_nombre'] ?> </option>
-																																						<?php endforeach;?>
+																																														  <option value="<?php echo $comb['dia_id'] ?> "><?php echo $comb['dia_nombre'] ?> </option>
+																																													<?php endforeach;?>
                 </select>
             </label>
         </div>
@@ -67,7 +68,7 @@
      <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style="margin-top: 25px;">
         <div class="form-group">
             <label style="width: 100%">
-            <input type="submit" value="Actualizar" class="btn btn-success btn-block">
+            <input type="submit" id="btnSave" value="Actualizar" class="btn btn-success btn-block">
             </label>
         </div>
     </div>
@@ -77,3 +78,5 @@
   </div>
 
 </div>
+
+<script src="<?php echo base_url('app-module/js/ediHorario.js'); ?>"></script>
