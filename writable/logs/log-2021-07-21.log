@@ -1,0 +1,173 @@
+CRITICAL - 2021-07-21 19:58:36 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\ushno-app\app\Views\admin\pages\horario.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 23, Array)
+#1 D:\xampp\htdocs\ushno-app\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ushno-app\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\ushno-app\system\Common.php(1217): CodeIgniter\View\View->render('admin/pages/hor...', Array, true)
+#4 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(50): view('admin/pages/hor...', Array)
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->index()
+#6 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#7 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-21 19:58:36 --> Uncaught ErrorException: include(): Filename cannot be empty in D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php:281
+Stack trace:
+#0 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'D:\\xampp\\htdocs...', 281, Array)
+#1 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): include()
+#2 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-21 19:59:47 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\ushno-app\app\Views\admin\pages\horario.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 23, Array)
+#1 D:\xampp\htdocs\ushno-app\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ushno-app\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\ushno-app\system\Common.php(1217): CodeIgniter\View\View->render('admin/pages/hor...', Array, true)
+#4 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(50): view('admin/pages/hor...', Array)
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->index()
+#6 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#7 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-21 19:59:47 --> Uncaught ErrorException: include(): Filename cannot be empty in D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php:281
+Stack trace:
+#0 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'D:\\xampp\\htdocs...', 281, Array)
+#1 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): include()
+#2 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-21 20:51:06 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\ushno-app\app\Views\admin\pages\horario.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 23, Array)
+#1 D:\xampp\htdocs\ushno-app\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ushno-app\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\ushno-app\system\Common.php(1217): CodeIgniter\View\View->render('admin/pages/hor...', Array, true)
+#4 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(50): view('admin/pages/hor...', Array)
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->index()
+#6 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#7 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-21 20:51:06 --> Uncaught ErrorException: include(): Filename cannot be empty in D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php:281
+Stack trace:
+#0 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'D:\\xampp\\htdocs...', 281, Array)
+#1 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): include()
+#2 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-21 20:56:07 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\ushno-app\app\Views\admin\pages\horario.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 23, Array)
+#1 D:\xampp\htdocs\ushno-app\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ushno-app\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\ushno-app\system\Common.php(1217): CodeIgniter\View\View->render('admin/pages/hor...', Array, true)
+#4 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(50): view('admin/pages/hor...', Array)
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->index()
+#6 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#7 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-21 20:56:07 --> Uncaught ErrorException: include(): Filename cannot be empty in D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php:281
+Stack trace:
+#0 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'D:\\xampp\\htdocs...', 281, Array)
+#1 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): include()
+#2 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-21 20:58:43 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\ushno-app\app\Views\admin\pages\horario.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 23, Array)
+#1 D:\xampp\htdocs\ushno-app\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ushno-app\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\ushno-app\system\Common.php(1217): CodeIgniter\View\View->render('admin/pages/hor...', Array, true)
+#4 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(50): view('admin/pages/hor...', Array)
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->index()
+#6 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#7 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-21 20:58:43 --> Uncaught ErrorException: include(): Filename cannot be empty in D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php:281
+Stack trace:
+#0 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'D:\\xampp\\htdocs...', 281, Array)
+#1 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): include()
+#2 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-21 20:58:45 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\ushno-app\app\Views\admin\pages\horario.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 23, Array)
+#1 D:\xampp\htdocs\ushno-app\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ushno-app\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\ushno-app\system\Common.php(1217): CodeIgniter\View\View->render('admin/pages/hor...', Array, true)
+#4 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(50): view('admin/pages/hor...', Array)
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->index()
+#6 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#7 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-21 20:58:45 --> Uncaught ErrorException: include(): Filename cannot be empty in D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php:281
+Stack trace:
+#0 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'D:\\xampp\\htdocs...', 281, Array)
+#1 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): include()
+#2 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-21 21:29:06 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\ushno-app\app\Views\admin\pages\horario.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 23, Array)
+#1 D:\xampp\htdocs\ushno-app\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ushno-app\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\ushno-app\system\Common.php(1217): CodeIgniter\View\View->render('admin/pages/hor...', Array, true)
+#4 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(50): view('admin/pages/hor...', Array)
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->index()
+#6 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#7 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-21 21:29:06 --> Uncaught ErrorException: include(): Filename cannot be empty in D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php:281
+Stack trace:
+#0 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'D:\\xampp\\htdocs...', 281, Array)
+#1 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): include()
+#2 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-21 22:44:49 --> Uncaught ErrorException: include(): Filename cannot be empty in D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php:281
+Stack trace:
+#0 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'D:\\xampp\\htdocs...', 281, Array)
+#1 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): include()
+#2 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-21 22:50:22 --> Class 'App\Models\HorarioModel' not found
+#0 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->update()
+#1 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#2 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-21 22:50:22 --> Uncaught ErrorException: include(): Filename cannot be empty in D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php:281
+Stack trace:
+#0 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'D:\\xampp\\htdocs...', 281, Array)
+#1 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): include()
+#2 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,20 @@
+CRITICAL - 2021-07-22 00:24:10 --> Uncaught ErrorException: include(): Filename cannot be empty in D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php:281
+Stack trace:
+#0 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'D:\\xampp\\htdocs...', 281, Array)
+#1 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): include()
+#2 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-22 00:25:14 --> Uncaught ErrorException: include(): Filename cannot be empty in D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php:281
+Stack trace:
+#0 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'D:\\xampp\\htdocs...', 281, Array)
+#1 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(281): include()
+#2 D:\xampp\htdocs\ushno-app\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,568 @@
+CRITICAL - 2021-05-09 08:06:20 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\fprueba\app\Views\vcontacts.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\fprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fprueba\system\Common.php(1217): CodeIgniter\View\View->render('vcontacts', Array, true)
+#4 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(9): view('vcontacts')
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->index()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#7 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-09 08:06:31 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\fprueba\app\Views\vcontacts.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\fprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fprueba\system\Common.php(1217): CodeIgniter\View\View->render('vcontacts', Array, true)
+#4 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(9): view('vcontacts')
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->index()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#7 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-09 08:06:32 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\fprueba\app\Views\vcontacts.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\fprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fprueba\system\Common.php(1217): CodeIgniter\View\View->render('vcontacts', Array, true)
+#4 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(9): view('vcontacts')
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->index()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#7 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-09 08:06:32 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\fprueba\app\Views\vcontacts.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\fprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fprueba\system\Common.php(1217): CodeIgniter\View\View->render('vcontacts', Array, true)
+#4 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(9): view('vcontacts')
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->index()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#7 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-09 08:07:17 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php on line 9
+#0 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(9): view('cabecera', 'vcontacts')
+#1 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->index()
+#2 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#3 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 08:08:59 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 08:09:37 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 08:09:38 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 08:19:53 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\fprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\fprueba\system\Common.php(1217): CodeIgniter\View\View->render('vcontacts', Array, true)
+#2 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(16): view('vcontacts', Array)
+#3 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->index()
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-09 08:20:00 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\fprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\fprueba\system\Common.php(1217): CodeIgniter\View\View->render('vcontacts', Array, true)
+#2 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(16): view('vcontacts', Array)
+#3 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->index()
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-09 09:40:47 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:41:07 --> syntax error, unexpected ',', expecting ']'
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:41:55 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:42:38 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:42:57 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:49:56 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(47): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:04:19 --> Call to undefined method App\Models\Mcontacts::dba_insert
+#0 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(47): CodeIgniter\Model->__call('dba_insert', Array)
+#1 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#2 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#3 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 10:07:05 --> Call to undefined method App\Models\Mcontacts::dba_insert
+#0 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(47): CodeIgniter\Model->__call('dba_insert', Array)
+#1 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#2 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#3 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 10:07:53 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(47): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:14:09 --> Call to undefined method App\Models\Mcontacts::dba_insert
+#0 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(46): CodeIgniter\Model->__call('dba_insert', Array)
+#1 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#2 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#3 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 10:29:51 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\fprueba\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(46): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#7 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-09 10:34:17 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:34:20 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:34:39 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:34:45 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:34:52 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:44:11 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\fprueba\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(46): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#7 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-09 10:45:22 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:45:24 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:45:31 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:45:41 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(46): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:58:11 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:58:14 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:58:26 --> Argument 2 passed to CodeIgniter\Model::insert() must be of the type bool, array given, called in C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php on line 46
+#0 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(46): CodeIgniter\Model->insert('contacts', Array)
+#1 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#2 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#3 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 11:04:41 --> Argument 2 passed to CodeIgniter\Model::insert() must be of the type bool, array given, called in C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php on line 46
+#0 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(46): CodeIgniter\Model->insert('contacts', Array)
+#1 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#2 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#3 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 11:04:58 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(46): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 11:32:31 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(46): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 11:32:39 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(46): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 11:34:00 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(46): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 11:36:56 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(46): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 11:37:12 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(46): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 11:37:23 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(46): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 11:48:43 --> syntax error, unexpected '$listacontactos' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 11:48:52 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 11:48:59 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 11:49:08 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 11:49:35 --> syntax error, unexpected '$listacontactos' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 11:49:49 --> syntax error, unexpected '$listacontactos' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 11:50:22 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(47): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 12:09:30 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(47): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 12:12:12 --> Allowed fields must be specified for model: App\Models\Mcontacts
+#0 C:\xampp\htdocs\fprueba\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mcon...')
+#1 C:\xampp\htdocs\fprueba\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\fprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(47): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->guardarcontacto()
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#6 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 14:19:59 --> Too few arguments to function App\Controllers\Ccontacts::deletecontact(), 0 passed in C:\xampp\htdocs\fprueba\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->deletecontact()
+#1 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#2 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 14:21:00 --> Call to undefined method CodeIgniter\HTTP\Response::rediredt()
+#0 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->deletecontact('9')
+#1 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#2 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 14:21:07 --> Call to undefined method CodeIgniter\HTTP\Response::rediredt()
+#0 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->deletecontact('8')
+#1 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#2 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 14:21:18 --> Call to undefined method CodeIgniter\HTTP\Response::rediredt()
+#0 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->deletecontact('6')
+#1 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#2 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 14:37:36 --> Assignments can only happen to writable values
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 14:37:38 --> Assignments can only happen to writable values
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 14:37:39 --> Assignments can only happen to writable values
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 14:37:40 --> Assignments can only happen to writable values
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 14:41:15 --> Assignments can only happen to writable values
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 14:42:09 --> Assignments can only happen to writable values
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 14:42:10 --> Assignments can only happen to writable values
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 14:42:11 --> Assignments can only happen to writable values
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 14:42:11 --> Assignments can only happen to writable values
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 14:45:26 --> Invalid file: editcontac.php
+#0 C:\xampp\htdocs\fprueba\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editcontac.php')
+#1 C:\xampp\htdocs\fprueba\system\Common.php(1217): CodeIgniter\View\View->render('editcontac', Array, true)
+#2 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(68): view('editcontac')
+#3 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->editcontact('1')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-09 15:02:52 --> syntax error, unexpected '?', expecting end of file
+#0 C:\xampp\htdocs\fprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\fprueba\system\Common.php(1217): CodeIgniter\View\View->render('veditcontact', Array, true)
+#2 C:\xampp\htdocs\fprueba\app\Controllers\Ccontacts.php(70): view('veditcontact', Array)
+#3 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->editcontact('10')
+#4 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#5 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-09 15:09:05 --> Call to a member function update() on null
+#0 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->updatecontact()
+#1 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#2 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 15:11:18 --> Call to a member function update() on null
+#0 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->updatecontact()
+#1 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#2 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 15:21:38 --> Call to a member function update() on null
+#0 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->updatecontact()
+#1 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#2 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 15:21:56 --> Call to a member function update() on null
+#0 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(936): App\Controllers\Ccontacts->updatecontact()
+#1 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontacts))
+#2 C:\xampp\htdocs\fprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

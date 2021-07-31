@@ -1,0 +1,102 @@
+CRITICAL - 2021-06-18 21:31:09 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\ushno-app\app\Views\admin\pages\horario.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 18, Array)
+#1 D:\xampp\htdocs\ushno-app\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ushno-app\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\ushno-app\system\Common.php(1217): CodeIgniter\View\View->render('admin/pages/hor...', Array, true)
+#4 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(14): view('admin/pages/hor...')
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->index()
+#6 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#7 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-18 21:50:40 --> mysqli_sql_exception: Unknown column 'ma_id' in 'where clause' in D:\xampp\htdocs\ushno-app\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\xampp\htdocs\ushno-app\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\ushno-app\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ushno-app\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ushno-app\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ushno-app\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ushno-app\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(32): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->edit('1')
+#8 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#9 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-18 21:50:40 --> Invalid file: veditmarca.php
+#0 D:\xampp\htdocs\ushno-app\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veditmarca.php')
+#1 D:\xampp\htdocs\ushno-app\system\Common.php(1217): CodeIgniter\View\View->render('veditmarca', Array, true)
+#2 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(35): view('veditmarca', Array)
+#3 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->edit('1')
+#4 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-18 21:54:41 --> Invalid file: veditmarca.php
+#0 D:\xampp\htdocs\ushno-app\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veditmarca.php')
+#1 D:\xampp\htdocs\ushno-app\system\Common.php(1217): CodeIgniter\View\View->render('veditmarca', Array, true)
+#2 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(33): view('veditmarca', Array)
+#3 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->edit('1')
+#4 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-18 22:47:46 --> Invalid file: vcreatemarca.php
+#0 D:\xampp\htdocs\ushno-app\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vcreatemarca.ph...')
+#1 D:\xampp\htdocs\ushno-app\system\Common.php(1217): CodeIgniter\View\View->render('vcreatemarca', Array, true)
+#2 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(66): view('vcreatemarca')
+#3 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->create()
+#4 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-18 23:15:09 --> Allowed fields must be specified for model: App\Models\HorarioModel
+#0 D:\xampp\htdocs\ushno-app\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Hora...')
+#1 D:\xampp\htdocs\ushno-app\system\BaseModel.php(874): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 D:\xampp\htdocs\ushno-app\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(63): CodeIgniter\Model->update('4', Array)
+#4 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->update()
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#6 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-18 23:15:57 --> Allowed fields must be specified for model: App\Models\HorarioModel
+#0 D:\xampp\htdocs\ushno-app\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Hora...')
+#1 D:\xampp\htdocs\ushno-app\system\BaseModel.php(874): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 D:\xampp\htdocs\ushno-app\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(62): CodeIgniter\Model->update('4', Array)
+#4 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->update()
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#6 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-18 23:17:19 --> Allowed fields must be specified for model: App\Models\HorarioModel
+#0 D:\xampp\htdocs\ushno-app\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Hora...')
+#1 D:\xampp\htdocs\ushno-app\system\BaseModel.php(874): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 D:\xampp\htdocs\ushno-app\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(63): CodeIgniter\Model->update('4', Array)
+#4 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->update()
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#6 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-18 23:19:26 --> Allowed fields must be specified for model: App\Models\HorarioModel
+#0 D:\xampp\htdocs\ushno-app\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Hora...')
+#1 D:\xampp\htdocs\ushno-app\system\BaseModel.php(874): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 D:\xampp\htdocs\ushno-app\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(65): CodeIgniter\Model->update('4', Array)
+#4 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->update()
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#6 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-18 23:22:12 --> Allowed fields must be specified for model: App\Models\HorarioModel
+#0 D:\xampp\htdocs\ushno-app\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Hora...')
+#1 D:\xampp\htdocs\ushno-app\system\BaseModel.php(874): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 D:\xampp\htdocs\ushno-app\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp\htdocs\ushno-app\app\Controllers\HorarioController.php(64): CodeIgniter\Model->update('4', Array)
+#4 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(936): App\Controllers\HorarioController->update()
+#5 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HorarioController))
+#6 D:\xampp\htdocs\ushno-app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ushno-app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
