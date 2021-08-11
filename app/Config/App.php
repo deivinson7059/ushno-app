@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/ushno-app/public/';
+    public $baseURL = 'https://frontend-web.danisoft.com.co/ushno-app/public/';
 
     /**
      * --------------------------------------------------------------------------

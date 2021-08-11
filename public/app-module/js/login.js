@@ -4,7 +4,7 @@ $('#frmLogin').on('submit', function (e) {
 	login();
 })
 
-var urlBase = "http://localhost/ushno-api/public/auth/login";
+var urlBase = "https://api-web.danisoft.com.co//ushno-api/public/auth/login";
 
 // =================== FUNCIONES ================== //
 function BlockUIDs() {
@@ -33,7 +33,7 @@ function login() {
 			toastr.success('!Bienvenido!', 'Bienvenido');
 			localStorage.clear();
 			localStorage.setItem('token', response.token);
-			window.location.href = "http://localhost/ushno-app/public/admin";
+			window.location.href = "https://api-web.danisoft.com.co//ushno-app/public/admin";
 
 		} else {
 			console.log(response.messages);

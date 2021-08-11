@@ -1,6 +1,6 @@
 // =================== CONTROL DE EVENTOS =================== //
 
-var urlBase = "http://localhost/ushno-api/public/admin/horario/delete";
+var urlBase = "https://api-web.danisoft.com.co//ushno-api/public/admin/horario/delete";
 
 // =================== FUNCIONES ================== //
 function BlockUIDs() {
@@ -37,7 +37,7 @@ function deleteH(hor_id) {
                 console.log(response);
                 if (response.status == 200) {
                     showMessage("OK", "eliminar");
-                    window.location.href = "http://localhost/ushno-app/public/admin/horario";
+                    window.location.href = "https://api-web.danisoft.com.co//ushno-app/public/admin/horario";
 
                 } else {
                     console.log(response.messages);

@@ -4,7 +4,7 @@ $('#frmLogin').on('submit', function (e) {
     save();
 })
 
-var urlBase = "http://localhost/ushno-api/public/admin/horario/save";
+var urlBase = "https://api-web.danisoft.com.co//ushno-api/public/admin/horario/save";
 
 // =================== FUNCIONES ================== //
 function BlockUIDs() {
@@ -35,7 +35,7 @@ function save() {
         console.log(response);
         if (response.status == 200) {
             showMessage("OK", "guardar");
-            window.location.href = "http://localhost/ushno-app/public/admin/horario";
+            window.location.href = "https://api-web.danisoft.com.co//ushno-app/public/admin/horario";
 
         } else {
             console.log(response.messages);

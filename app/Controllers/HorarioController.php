@@ -38,7 +38,7 @@ class HorarioController extends Controller
     public function index()
     {
 
-        $items = self::getresponse('http://localhost/ushno-api/public/emisora/horario');
+        $items = self::getresponse('https://api-web.danisoft.com.co//ushno-api/public/emisora/horario');
 
         $response = $items->Horarios;
 
@@ -56,19 +56,19 @@ class HorarioController extends Controller
     public function edit($id)
     {
 
-        $teams = self::getresponse('http://localhost/ushno-api/public/emisora/cbteams');
+        $teams = self::getresponse('https://api-web.danisoft.com.co//ushno-api/public/emisora/cbteams');
 
         $resteams = $teams->teams;
 
         $datos['teams'] = json_decode(json_encode($resteams), true);
 
-        $combo = self::getresponse('http://localhost/ushno-api/public/emisora/cbdias');
+        $combo = self::getresponse('https://api-web.danisoft.com.co//ushno-api/public/emisora/cbdias');
 
         $rescombo = $combo->combo;
 
         $datos['combo'] = json_decode(json_encode($rescombo), true);
 
-        $url = "http://localhost/ushno-api/public/emisora/horario/" . $id;
+        $url = "https://api-web.danisoft.com.co//ushno-api/public/emisora/horario/" . $id;
 
         $lista = self::getresponse($url);
 
@@ -90,13 +90,13 @@ class HorarioController extends Controller
     public function create()
     {
 
-        $teams = self::getresponse('http://localhost/ushno-api/public/emisora/cbteams');
+        $teams = self::getresponse('https://api-web.danisoft.com.co//ushno-api/public/emisora/cbteams');
 
         $resteams = $teams->teams;
 
         $datos['teams'] = json_decode(json_encode($resteams), true);
 
-        $combo = self::getresponse('http://localhost/ushno-api/public/emisora/cbdias');
+        $combo = self::getresponse('https://api-web.danisoft.com.co//ushno-api/public/emisora/cbdias');
 
         $rescombo = $combo->combo;
 

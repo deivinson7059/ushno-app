@@ -8,7 +8,7 @@ class GaleryController extends Controller
     public function index()
     {
 
-        // $items = self::getresponse('http://localhost/ushno-api/public/emisora/horario');
+        // $items = self::getresponse('https://api-web.danisoft.com.co//ushno-api/public/emisora/horario');
 
         //$response = $items->Horarios;
 
